@@ -1,0 +1,27 @@
+{   
+    "data_path":"",
+    "up_aug": 5,
+    "down_aug": -6,
+    "nmatch_fix":false,
+    "loss_match_k":1,
+
+    "max_simu_note":16,
+    "note_emb_size": 128,
+    "enc_notes_hid_size": 256,
+    "enc_time_hid_size": 512,
+    "melody_hid_size":512,
+    "dropout_rate":0.5,
+    "before_cat_dim":512,
+    "_model_size_k":1,
+    "mid_sizes": [512,256,64,1],
+
+    "ssh":false,
+
+    "decay":true,
+    "random_seed":1234,
+    "batch_size":2000,
+    "iteration_num":10000,
+    "parallel":false,
+    "lr":1e-3,
+    "print_every":10
+}

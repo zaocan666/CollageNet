@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=5,6 python EC2_VAE/train.py 2>&1 | tee train_log_EC2.txt

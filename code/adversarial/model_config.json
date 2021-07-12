@@ -1,0 +1,47 @@
+{   
+    "data_path":"",
+    "EC2_VAE_path":"",
+    "poly_model_path":"",
+    "demo_root":"",
+    "eval_path":"",
+    "D_model_param_path":"",
+    "D_load":false,
+
+    "actor_d_input":1024,
+    "actor_d_mid":1024,
+    "actor_layer_num":8,
+    "actor_dropout_rate":0.3,
+    "actor_bn_flag":false,
+    "actor_leaky_relu":false,
+    "actor_c_inputs":[256, 256, 256, 256],
+
+    "critic_d_input":1024,
+    "critic_d_mid":1024,
+    "critic_layer_num":8,
+    "critic_dropout_rate":0.3,
+    "critic_bn_flag":false,
+    "critic_leaky_relu":false,
+
+    "prior_sample":true,
+    "Gprior_sample":true,
+    "zmatch2G":false,
+    "train_D_start":50,
+    "pure2G_times":10,
+    "train_D2G_times":1,
+    "train_G":true,
+    "distance_lambda":1,
+    "z_nmatch_fix":false,
+    "loss_D_zmatch_k":0.5,
+    "loss_melody_distance_k":1,
+    "z_sample":true,
+
+    "ssh":false,
+
+    "random_seed":5647,
+    "batch_size":6000,
+    "iteration_num":8000,
+    "parallel":false,
+    "lr":3e-5,
+    "adam_betas":[0, 0.9],
+    "print_every":10
+}

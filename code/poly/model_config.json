@@ -1,0 +1,44 @@
+{
+    "data":"",
+    "model_path":"params_poly",
+    "log_path":"run_poly",
+
+    "up_aug": 5,
+    "down_aug": -6,
+
+    "chordEncoder_in_dim": 36,
+    "chordEncoder_hidden_dim":2048,
+    "chordEncoder_z_dim":512,
+
+    "texEncoder_cnn_channel":40,
+    "texEncoder_cnn_dim":1024,
+    "texEncoder_gru_hidden_dim":2048,
+    "texEncoder_z_dim":1024,
+
+    "chordDecoder_inpuy_dim":512,
+    "chordDecoder_hidden_dim":1024,
+
+    "ptdec_note_emb_size":256,
+    "ptdec_emb_hid_size":256,
+    "ptdec_time_hid_size":2048,
+    "ptdec_notes_hid_size":1024,
+    "ptdec_z_in_size":512,
+    "ptdec_dur_hid_size":128,
+
+    "random_seed": 1234,
+    "amp":false, 
+    "balanced_data":false,
+    "gpus_bsz": [460,470],
+    "batch_size":180,
+    "start_epoch":0,
+    "lr": 1e-3,
+    "decay":true,
+    "n_epochs": 30,
+    "tf_rate1":[0.6,0],
+    "tf_rate2":[0.5,0],
+    "tf_rate3":[0.5,0],
+    "weights":[1, 0.5],
+    "beta":0.1,
+    "beta_mid_epoch":5,
+    "clip":1
+}

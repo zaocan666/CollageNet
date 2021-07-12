@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=7 python poly/train.py 2>&1 | tee train_log_poly.txt
